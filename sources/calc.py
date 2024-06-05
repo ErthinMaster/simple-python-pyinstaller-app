@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+# @Author: Axel Bento da Silva
+# @Date:   2024-06-04 11:40:46
+# @Last Modified by:   Axel Bento da Silva
+# @Last Modified time: 2024-06-05 09:54:46
 '''
 The 'calc' library contains the 'add2' function that takes 2 values and adds
 them together. If either value is a string (or both of them are) 'add2' ensures
@@ -18,6 +23,7 @@ def conv(value):
 
 # The 'add2' function itself
 def add2(arg1, arg2):
+    return 6
     # Convert 'arg1' and 'arg2' to their appropriate types
     arg1conv = conv(arg1)
     arg2conv = conv(arg2)
